@@ -46,8 +46,16 @@ namespace Celo.Domain.Services
 
         public void DeleteUser(Guid id)
         {
-            var user = _unitOfWork.UserRepository.Get(id);
+            var user = _unitOfWork.UserRepository.GetAll()
+                .Include(x => x.ProfileImageL)
+                .Include(x => x.ProfileImageS)
+                .SingleOrDefault(x => x.Id == id);
             if (user == null) return;
+
+            if(user.ProfileImageL != null)
+                _unitOfWork.Repository<Data.Models.ProfileImage, Guid>().Remove(user.ProfileImageL);
+            if (user.ProfileImageS != null)
+                _unitOfWork.Repository<Data.Models.ProfileImage, Guid>().Remove(user.ProfileImageS);
 
             _unitOfWork.UserRepository.Remove(user);
             _unitOfWork.SaveChanges();
@@ -161,15 +169,4 @@ namespace Celo.Domain.Services
 
         private bool VerifyUser(User user) => user.Email.IsEmail();
     }
-
-    public struct Point
-    {
-        public double X { get; set; }
-        public double Y { get; set; }
-        public readonly double Distance => Math.Sqrt(X * X + Y * Y);
-
-        public readonly override string ToString() =>
-            $"({X}, {Y}) is {Distance} from the origin";
-    }
-
 }

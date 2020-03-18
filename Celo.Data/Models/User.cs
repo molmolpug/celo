@@ -13,6 +13,7 @@ namespace Celo.Data.Models
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
+        [Required]
         public DateTime DoB { get; set; }
         public string PhoneNumber { get; set; }
         public Guid? ProfileImageLId { get; set; }

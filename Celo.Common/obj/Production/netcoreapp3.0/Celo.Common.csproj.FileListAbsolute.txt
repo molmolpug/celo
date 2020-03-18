@@ -1,0 +1,7 @@
+D:\Jobs\2020\CeloHealth\Celo\Celo.Common\bin\Production\netcoreapp3.0\Celo.Common.deps.json
+D:\Jobs\2020\CeloHealth\Celo\Celo.Common\bin\Production\netcoreapp3.0\Celo.Common.dll
+D:\Jobs\2020\CeloHealth\Celo\Celo.Common\bin\Production\netcoreapp3.0\Celo.Common.pdb
+D:\Jobs\2020\CeloHealth\Celo\Celo.Common\obj\Production\netcoreapp3.0\Celo.Common.AssemblyInfoInputs.cache
+D:\Jobs\2020\CeloHealth\Celo\Celo.Common\obj\Production\netcoreapp3.0\Celo.Common.AssemblyInfo.cs
+D:\Jobs\2020\CeloHealth\Celo\Celo.Common\obj\Production\netcoreapp3.0\Celo.Common.dll
+D:\Jobs\2020\CeloHealth\Celo\Celo.Common\obj\Production\netcoreapp3.0\Celo.Common.pdb

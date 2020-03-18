@@ -1,0 +1,13 @@
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\bin\Production\netcoreapp3.0\Celo.Domain.deps.json
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\bin\Production\netcoreapp3.0\Celo.Domain.dll
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\bin\Production\netcoreapp3.0\Celo.Domain.pdb
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\bin\Production\netcoreapp3.0\Celo.Common.dll
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\bin\Production\netcoreapp3.0\Celo.Data.dll
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\bin\Production\netcoreapp3.0\Celo.Common.pdb
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\bin\Production\netcoreapp3.0\Celo.Data.pdb
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\obj\Production\netcoreapp3.0\Celo.Domain.csprojAssemblyReference.cache
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\obj\Production\netcoreapp3.0\Celo.Domain.AssemblyInfoInputs.cache
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\obj\Production\netcoreapp3.0\Celo.Domain.AssemblyInfo.cs
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\obj\Production\netcoreapp3.0\Celo.Domain.csproj.CopyComplete
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\obj\Production\netcoreapp3.0\Celo.Domain.dll
+D:\Jobs\2020\CeloHealth\Celo\Celo.Domain\obj\Production\netcoreapp3.0\Celo.Domain.pdb

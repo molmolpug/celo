@@ -1,0 +1,10 @@
+D:\Jobs\2020\CeloHealth\Celo\Celo.Data\bin\Production\netcoreapp3.0\Celo.Data.deps.json
+D:\Jobs\2020\CeloHealth\Celo\Celo.Data\bin\Production\netcoreapp3.0\Celo.Data.runtimeconfig.json
+D:\Jobs\2020\CeloHealth\Celo\Celo.Data\bin\Production\netcoreapp3.0\Celo.Data.runtimeconfig.dev.json
+D:\Jobs\2020\CeloHealth\Celo\Celo.Data\bin\Production\netcoreapp3.0\Celo.Data.dll
+D:\Jobs\2020\CeloHealth\Celo\Celo.Data\bin\Production\netcoreapp3.0\Celo.Data.pdb
+D:\Jobs\2020\CeloHealth\Celo\Celo.Data\obj\Production\netcoreapp3.0\Celo.Data.csprojAssemblyReference.cache
+D:\Jobs\2020\CeloHealth\Celo\Celo.Data\obj\Production\netcoreapp3.0\Celo.Data.AssemblyInfoInputs.cache
+D:\Jobs\2020\CeloHealth\Celo\Celo.Data\obj\Production\netcoreapp3.0\Celo.Data.AssemblyInfo.cs
+D:\Jobs\2020\CeloHealth\Celo\Celo.Data\obj\Production\netcoreapp3.0\Celo.Data.dll
+D:\Jobs\2020\CeloHealth\Celo\Celo.Data\obj\Production\netcoreapp3.0\Celo.Data.pdb

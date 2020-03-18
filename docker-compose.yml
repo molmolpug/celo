@@ -1,0 +1,29 @@
+version: "3"
+services:
+  celo_db:
+    image: postgres:12
+    environment:
+        - POSTGRES_DB=celo
+        - POSTGRES_USER=user
+        - POSTGRES_PASSWORD=password
+        - POSTGRES_ROOT_PASSWORD=root_password
+    volumes:  
+      - celoData:/var/lib/postgresql/data
+    ports:
+      - "54321:5432"
+  celo_api: 
+    build:
+      dockerfile: Dockerfile
+      context: .
+    container_name: celo.api
+    environment:
+     - ASPNETCORE_URLS=http://+:5000
+     - ASPNETCORE_ENVIRONMENT=Development
+     - Api_Db_ConnectionString=User ID=user;Password=password;Host=celo_db;Port=5432;Database=celo;Pooling=true;Command Timeout=0;
+    ports:
+     - "5000:5000"
+    links:
+        - celo_db:celo_db
+volumes:
+  celoData:
+    external: false
